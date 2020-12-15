@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="flex-center header__slider-area">
+            <div class="bundle header__slider-area--size">
+                <p class="slider-text array_size--text">SIZE:</p>
+                <input class="slider slider--array" id="arr_size" type="range" min=3 max=450 step=1 value=80>
+            </div>
+            <div class="bundle header__slider-area--speed">
+                <p class="slider-text viz_speed--text">SPEED:</p>
+                <input class="slider slider--speed" id="viz_speed" type="range" min=1 max=3 step=1 value=2>
+            </div>
+        </div>
+        <div class="flex-center header__button-wrapper" id="buttonWrapper">
+            <button id='bubble' class="btn btn--white"><span class="btntext">Bubble</span></button>
+            <button id='select' class="btn btn--white"><span class="btntext">Selection</span></button>
+            <button id='merge' class="btn btn--white"><span class="btntext">Merge</span></button>
+            <button id='insert' class="btn btn--white"><span class="btntext">Insertion</span></button>
+            <button id='quick' class="btn btn--white"><span class="btntext">Quick</span></button>
+        </div>
+    </header>
+
+    <div class="graph">
+        <div class="graph__main" id="area">
+        </div>
+        <div class="graph__pedestal">
+            <span class="slider-text">
+                MADE IN INDIA 😂
+            </span>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="./scripts/MACHINE/arrayGiver.js"></script>
+<script src="./scripts/MACHINE/visualisatoion.js"></script>
+<script src="./scripts/ALGOS/BubbleSort.js"></script>
+<script src="./scripts/ALGOS/QuickSort.js"></script>
+<script src="./scripts/ALGOS/MergeSort.js"></script>
+<script src="./scripts/ALGOS/SelectionSort.js"></script>
+<script src="./scripts/ALGOS/InsertionSort.js"></script>
+<script src="./scripts/MACHINE/main.js"></script>
+
+</html>
